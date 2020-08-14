@@ -1,4 +1,4 @@
-- hosts: all
+- hosts: 51.11.187.68 
   tasks:
     - name: This is a test task
       debug:
