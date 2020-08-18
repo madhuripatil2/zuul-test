@@ -1,4 +1,4 @@
-- pipeline:
+ - pipeline:
     name: check
     description: |
       Newly uploaded patchsets enter this pipeline to receive an
@@ -23,8 +23,9 @@
       github:
         status: 'success'
       sqlreporter:
+
+      
     failure:
       github:
         status: 'failure'
       sqlreporter:
-
